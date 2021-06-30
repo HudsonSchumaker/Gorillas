@@ -18,7 +18,7 @@ class UserMutation(private val service: UserService): Mutation {
 
     val signer: Signer = HMACSigner.newSHA256Signer("blowfish")
 
-    suspend fun auth(userName : String, password : String): DataFetcherResult<String?> {
+    suspend fun auth(userName: String, password: String): DataFetcherResult<String?> {
 
         try {
             val user = service.authentication(userName, password)
