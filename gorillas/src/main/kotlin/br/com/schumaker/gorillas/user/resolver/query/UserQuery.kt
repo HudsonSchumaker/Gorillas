@@ -8,7 +8,7 @@ import kotlinx.coroutines.reactive.awaitSingle
 import org.springframework.stereotype.Component
 
 @Component
-class UserQuery(private val service: UserService) : Query {
+class UserQuery(private val service: UserService): Query {
 
     suspend fun users(): List<User> {
         return service.findAll().awaitFirstOrDefault(listOf())
