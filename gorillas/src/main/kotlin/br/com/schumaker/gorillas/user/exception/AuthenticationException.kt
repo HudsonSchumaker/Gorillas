@@ -5,6 +5,9 @@ import graphql.ErrorType
 import graphql.GraphQLError
 import graphql.language.SourceLocation
 
+/**
+ * @author Hudson Schumaker
+ */
 class AuthenticationException: GraphQLError {
     override fun getMessage(): String {
         return "Wrong user name and/or password"
