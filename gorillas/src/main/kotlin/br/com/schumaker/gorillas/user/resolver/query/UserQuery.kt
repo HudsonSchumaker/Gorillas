@@ -7,6 +7,9 @@ import kotlinx.coroutines.reactive.awaitFirstOrDefault
 import kotlinx.coroutines.reactive.awaitSingle
 import org.springframework.stereotype.Component
 
+/**
+ * @author Hudson Schumaker
+ */
 @Component
 class UserQuery(private val service: UserService): Query {
 
