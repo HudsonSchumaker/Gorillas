@@ -4,6 +4,9 @@ import com.expediagroup.graphql.generator.annotations.GraphQLDescription
 import com.expediagroup.graphql.generator.annotations.GraphQLIgnore
 import org.springframework.data.annotation.Id
 
+/**
+ * @author Hudson Schumaker
+ */
 @GraphQLDescription("User records")
 data class User(
     @Id
