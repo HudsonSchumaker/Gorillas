@@ -13,6 +13,9 @@ import kotlinx.coroutines.reactor.awaitSingle
 import java.time.ZoneOffset
 import java.time.ZonedDateTime
 
+/**
+ * @author Hudson Schumaker
+ */
 @Component
 class UserMutation(private val service: UserService): Mutation {
 
