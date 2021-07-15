@@ -22,9 +22,7 @@ interface Mapper<S, T> {
                 val dto = from(entity)
                 postProcessor.accept(entity, dto)
                 targetList.add(dto)
-            } catch (ex: RuntimeException) {
-
-            }
+            } catch (ex: RuntimeException) { }
         }
         return targetList
     }
