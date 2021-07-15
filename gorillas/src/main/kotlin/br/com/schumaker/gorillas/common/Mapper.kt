@@ -2,6 +2,9 @@ package br.com.schumaker.gorillas.common
 
 import java.util.function.BiConsumer
 
+/**
+ * @author Hudson Schumaker
+ */
 interface Mapper<S, T> {
 
     fun from(source: S): T {
