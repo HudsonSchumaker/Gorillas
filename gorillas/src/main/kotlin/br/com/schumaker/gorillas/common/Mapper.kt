@@ -12,7 +12,7 @@ interface Mapper<S, T> {
     }
 
     fun from(sources: Iterable<S>): List<T> {
-        return from(sources) { s, t ->  }
+        return from(sources) { s, t -> }
     }
 
     fun from(sources: Iterable<S>, postProcessor: BiConsumer<S, T>): List<T> {
