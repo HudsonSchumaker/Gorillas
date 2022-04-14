@@ -27,7 +27,7 @@ dependencies {
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 	implementation("com.google.code.gson:gson")
 	implementation("com.expediagroup", "graphql-kotlin-spring-server", "4.1.1")
-	implementation( "com.graphql-java-kickstart", "graphql-spring-boot-starter", "11.1.0")
+	implementation("com.graphql-java-kickstart", "graphql-spring-boot-starter", "11.1.0")
 	implementation( "com.graphql-java-kickstart", "playground-spring-boot-starter", "11.1.0")
 	implementation("io.fusionauth:fusionauth-jwt:4.1.0")
 	implementation("junit:junit:4.12")
